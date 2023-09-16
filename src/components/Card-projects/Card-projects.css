@@ -1,0 +1,133 @@
+.card-project {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin: 5rem 0;
+  box-shadow: 7px 7px 7px 7px rgba(255, 108, 4, 0.75);
+  transition: transform 0.3s;
+  animation: slide-in 2s ease-out;
+}
+
+.card-left {
+  width: 60%;
+  padding: 0 1rem 5rem 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-left > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  gap: 1rem;
+}
+.card-left .links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 15px;
+  margin-top: 3rem;
+}
+
+.img-project {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: -2rem;
+  transition: filter 1s ease-in-out;
+}
+
+.img-project:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.container-tech {
+  display: flex;
+  justify-content: right;
+  gap: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  right: 1rem;
+  bottom: 0;
+}
+
+.link-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  filter: invert(99%) sepia(19%) saturate(3512%) hue-rotate(299deg) brightness(98%) contrast(85%);
+  transition: transform 0.3s;
+}
+
+.link-icon:hover {
+  transform: scale(1.1);
+}
+
+.icon-tech {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.card-right {
+  padding: 1rem 2rem;
+  width: 40%;
+  text-align: right;
+}
+
+
+
+.card-right > p {
+  font-size: 17px;
+  text-align: right;
+}
+
+.info-project {
+  font-size: 15px;
+  padding: 4px;
+  border-radius: 29px;
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .card-project {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .card-left {
+      width: 100%;
+  }
+
+  .card-right {
+      width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .img-project {
+      display: none;
+  }
+
+  .card-project {
+      display: flex;
+      flex-direction: column-reverse;
+  }
+
+  .card-right {
+      padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .card-project {
+      margin-top: 4rem;
+  }
+  
+}

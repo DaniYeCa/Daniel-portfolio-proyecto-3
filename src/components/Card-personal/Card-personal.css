@@ -1,0 +1,46 @@
+.card-personal {
+  align-items: center;
+  animation: slide-in 1.5s ease-out;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px 7px rgba(255, 108, 4, 0.75);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 5rem;
+  padding: 1rem 2rem;
+  transition: transform 0.3s;
+}
+
+
+
+div > img {
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.card-personal > p {
+  height: 100%;
+  text-align: center;
+  width: 50rem;
+}
+
+.card-personal:hover{
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 740px) { 
+  div > img {
+      height: 200px;
+      width: 200px;
+  }
+}
+
+@media screen and (max-width: 590px) { 
+  .card-personal:hover {
+      transform: none;
+  }
+}

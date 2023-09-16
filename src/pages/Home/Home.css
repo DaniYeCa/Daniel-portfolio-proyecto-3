@@ -1,0 +1,204 @@
+.hero{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 8%;
+  align-items: center;
+  min-height: 570px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+  gap: 20px;
+  flex: 50%;
+}
+
+.content h1{
+  font-size: 3.4rem;
+  color: var(--color-primary);
+  line-height: 1.5rem;
+  animation: fade 3s forwards;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+.content h4{
+  font-size: 25px;
+  color: var(--color-primary);
+  animation: fade 4s forwards;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.content button{
+  height: 50px;
+  width: 200px;
+  padding: 8px 28px;
+  border-radius: 3px;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: black;
+  transition: .6s;
+  margin-bottom: 10px;
+  animation: fade 5s forwards;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.content button:hover{
+  background-color: black;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.icons img{
+  height: 70px;
+  width: 70px;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+  transition: .6s;
+  margin-bottom: 20px;
+}
+
+.icons img:hover{
+  transform: translateY(-8px);
+}
+
+.hero-image{
+  height: 450px;
+  width: 450px;
+  border: 2px solid var(--color-primary);
+  position: relative;
+  border-radius: 50%;
+}
+
+.hero-image .avatar{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 30px;
+  transition: all 0.5s;
+  transform: scale(1);
+  animation: zoomout 3s;
+}
+
+.hero-image span{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transition: 5s all;
+  animation: turnanim 2s infinite;
+}
+
+.hero-image span img{
+  height: 40px;
+  width: 40px;
+}
+
+.hero-image span:nth-of-type(1){
+  top: -30px;
+  left: 40%;
+}
+
+.hero-image span:nth-of-type(2){
+  top: 60%;
+  right: -5%;
+}
+
+.hero-image span:nth-of-type(3){
+  top: 60%;
+  left: -5%;
+}
+
+/* animations */
+@keyframes zoomout{
+  100%{
+    transform: scale(1);
+  }
+  0%{
+    transform: scale(0);
+  }
+}
+
+@keyframes turnanim{
+  0%{
+    transform: rotate(20deg);
+  }
+  50%{
+    transform: rotate(-20deg);
+  }
+  100%{
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes fade{
+  85%{
+    opacity: 1;
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+/* media query */
+
+@media(max-width:1280px){
+  .hero{
+    min-height: 720px;
+  }
+  .content h1{
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width:900px){
+  .content h1{
+    font-size: 2.3rem;
+    margin-top: 50px;
+    line-height: 1.3rem;
+  }
+  .hero{
+    flex-direction: column-reverse;
+  }
+  .hero-image{
+    height: 380px;
+    width: 380px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:555px){
+  .content h1{
+    font-size: 1rem;
+  }
+  .content h4{
+    font-size: 0.9rem;
+  }
+  .hero-image{
+    height: 250px;
+    width: 250px;
+    margin-top: 80px;
+  }
+  .content button{
+    height: 45px;
+    width: 180px;
+    font-size: 1rem;
+  }
+}
+
+
