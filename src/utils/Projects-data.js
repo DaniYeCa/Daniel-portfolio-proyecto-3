@@ -67,8 +67,8 @@ export const projectsData = [
       "./assets/css-3.png",
       "./assets/javascript.png",
     ],
-    link: "https://projects-3-daniel-portfolio.netlify.app",
-    github: "https://github.com/DaniYeCa/Daniel-s-Portfolio.git",
+    link: "https://daniels-portfolio-projects-3.netlify.app/",
+    github: "https://github.com/DaniYeCa/Daniel-portfolio-proyecto-3.git",
   },
 
 ]
