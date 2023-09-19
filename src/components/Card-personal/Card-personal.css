@@ -32,12 +32,33 @@ div > img {
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 740px) { 
+
+
+/* media queries */
+
+@media screen and (max-width: 1235px) { 
   div > img {
-      height: 200px;
-      width: 200px;
+      height: 170px;
+      width: 170px;
+  }
+  .card-personal p{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-left: -3px;
+    width: 35rem;
   }
 }
+
+@media screen and (max-width: 970px){
+div > img{
+  width: auto;
+}
+.card-personal p{
+  width: auto;
+}
+}
+
 
 @media screen and (max-width: 590px) { 
   .card-personal:hover {
