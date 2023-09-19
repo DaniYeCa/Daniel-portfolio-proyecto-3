@@ -48,7 +48,7 @@ export const projectsData = [
     title: "Erotixxx",
     goal: "Landing page",
     description: `Este projecto fue un reto de cuanto tardaba en crear una landing page tarde unos 30 minutos en realizar la maquetación
-    esta sin terminar y no es responsive pero fue muy gracioso salir de mi zona de confort y fue un reto con mi gran amigo jose miguel diaz`,
+    esta sin terminar y no es responsive pero fue muy gracioso salir de mi zona de confort y fue un reto`,
     tech: [
       "./assets/html.png",
       "./assets/css-3.png",
@@ -57,7 +57,7 @@ export const projectsData = [
     github: "https://github.com/DaniYeCa/Erotixxx.git",
   },
   {
-    img: "./assets/portfolio.png",
+    img: "./assets/portada-portfolio.png",
     title: "Portfolio",
     goal: "creacion de mi portfolio",
     description: `Este es mi portfolio realizado con HTML, CSS y Js aqui implemente todos mis conocimientos aprendidos para el modulo 1 de javascript developer
