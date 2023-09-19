@@ -51,9 +51,6 @@ div > img {
 }
 
 @media screen and (max-width: 970px){
-div > img{
-  width: auto;
-}
 .card-personal p{
   width: auto;
 }
