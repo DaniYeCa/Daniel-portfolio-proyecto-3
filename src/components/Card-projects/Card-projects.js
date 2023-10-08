@@ -17,7 +17,6 @@ export const cardProject = (img, title, goal, description, tech, link, github) =
                     <img class="link-icon" src="./assets/github (1).png" />
                 Ver codigo</a>
                 </div>
-               
 
         </div>
 

@@ -13,6 +13,6 @@ export const AboutMe = () => {
             ${infoPersonal.map((el) => cardPersonal(el.photo, el.alt, el.desc)).join("")}
         </article>
     </section>
-    `
+    `;
 
 }
