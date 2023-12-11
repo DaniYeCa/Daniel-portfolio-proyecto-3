@@ -14,6 +14,18 @@ export const projectsData = [
     github: "https://github.com/DaniYeCa/proyecto1.git",
   },
   {
+    img: "./assets/arcade-game.png",
+    title: "Arcade Game",
+    goal: "Landing page",
+    description: `Este proyecto me ha hecho realmente mucha ilusion trabajar en ello, dandole vida a una epoca que por desgracia cada vez se va perdiendo mas y mas.
+    Pero todo comenzó con las consolas y videojuegos retro una epoca llena de magia para muchos y ahora son reliquias muy valoradas`,
+    tech: [
+      "./assets/html.png",
+      "./assets/css-3.png"
+    ],
+    link: "https://arcadegame-project.netlify.app/#home",
+  },
+  {
     img: "./assets/El-Chirro.png",
     title: "El Chirro",
     goal: "Landing page/E-commerce",
