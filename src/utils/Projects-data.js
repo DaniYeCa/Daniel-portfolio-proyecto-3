@@ -56,6 +56,20 @@ export const projectsData = [
     github: "https://github.com/DaniYeCa/Bat-emporium.git",
   },
   {
+    img: "./assets/interest.png",
+    title: "Interest",
+    goal: "red social visual",
+    description: `Aqui quise realizar una cover de nuestra maravillosa herramienta/red social visual de pinterest en el que puedes buscar
+    a traves de una api "unsplash" y poder disfrutar de la aplicacion a tu gusto buscando tus fotos de inspiracion para tus proyectos o ideas`,
+    tech: [
+      "./assets/html.png",
+      "./assets/css-3.png",
+      "./assets/javascript.png"
+    ],
+    link: "https://insterest-daniel-yepes.netlify.app/",
+    github: "https://github.com/DaniYeCa/Insterest.git",
+  },
+  {
     img: "./assets/portada-portfolio.png",
     title: "Portfolio",
     goal: "creacion de mi portfolio",
