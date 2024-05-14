@@ -70,6 +70,21 @@ export const projectsData = [
     github: "https://github.com/DaniYeCa/Insterest.git",
   },
   {
+    img: "./assets/game-hub.png",
+    title: "Game Hub",
+    goal: "Aplicacion videojuegos",
+    description: `Este es mi ultimo trabajo como javascript developer, aqui puse todos mis conocimientos sobre js,html,css utilizando vanilla
+    y hice una aplicacion donde poder disfrutar de tres videos juegos clasicos para divertinos un poco
+    ¡A que esperas para divertirte y disfrutar con ellos!`,
+    tech: [
+      "./assets/html.png",
+      "./assets/css-3.png",
+      "./assets/javascript.png"
+    ],
+    link: "https://game-hub-daniel.netlify.app/",
+    github: "https://github.com/DaniYeCa/hub-de-juegos.git",
+  },
+  {
     img: "./assets/portada-portfolio.png",
     title: "Portfolio",
     goal: "creacion de mi portfolio",
