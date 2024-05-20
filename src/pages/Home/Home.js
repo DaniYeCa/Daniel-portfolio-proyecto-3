@@ -8,7 +8,7 @@ export const Home = () => {
         <div class="content">
             <h1>Daniel Yepes Carrillo</h1>
             <h4>Estudiante para Full Stack Developer</h4>
-            <a href="./assets/full stack.pdf" target="_blank">
+            <a href="./assets/mi curriculum vitae (4).pdf" target="_blank">
             <button>Descarga mi CV</button>
             </a>
                 <div class="icons">
